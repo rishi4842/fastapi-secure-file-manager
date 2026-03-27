@@ -1,0 +1,47 @@
+/* Page background */
+body {
+    background-color: #020617;
+    color: #e5e7eb;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Top bar */
+.swagger-ui .topbar {
+    background-color: #020617;
+    border-bottom: 1px solid #1e293b;
+}
+.topbar-wrapper .link span {
+    color: #38bdf8 !important;
+    font-weight: 700;
+}
+
+/* Main section background */
+.swagger-ui .information-container {
+    background: transparent;
+}
+
+/* Operation blocks */
+.opblock {
+    border-radius: 10px;
+    border: 1px solid #1e293b;
+}
+
+/* Request / execute buttons */
+.swagger-ui .btn.execute {
+    background-color: #22c55e !important;
+    border-color: #16a34a !important;
+    color: #022c22 !important;
+}
+.swagger-ui .btn {
+    border-radius: 6px !important;
+}
+
+/* Tags / section headers */
+.opblock-tag.no-desc span {
+    color: #38bdf8;
+}
+
+/* Schema box background */
+.swagger-ui .model-box {
+    background-color: #020617;
+}
